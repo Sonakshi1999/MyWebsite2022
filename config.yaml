@@ -1,6 +1,6 @@
-baseURL: http://example.org/
+baseURL: https://sonakshigupta.netlify.app
 languageCode: en-us
-title: Forty
+title: Portfolio website for Sonakshi Gupta
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
