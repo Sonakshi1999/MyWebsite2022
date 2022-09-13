@@ -61,18 +61,18 @@ params:
   name: Your name
   navigation:
     button1:
-      - name: Get Started
+      - name: My CV
         url: blogs
-    button2:
-      - name: Log In
+#    button2:
+#      - name: Log In
         url: '#'
     links:
       - name: Home
         url: '#'
-      - name: Blogs
+      - name: All About Me
         url: blogs
-#      - name: Generic Blog
-#        url: blogs/ipsum
+      - name: My Projects
+        url: blogs/ipsum
 #      - name: Elements
 #        url: elements.html
     menu: Menu
@@ -82,12 +82,12 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
+        subtitle: When I am not doing statistics
+        title: All About Me!
         url: blogs/aliquam
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
+        subtitle: This is what got me to LBS!
+        title: CV
         url: blogs/tempus
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
@@ -97,14 +97,14 @@ params:
         subtitle: Nisl Sed Aliquam
         title: Ipsum
         url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+#      - image: pic05.jpg
+#        subtitle: Ipsum Dolor Sit Amet
+#        title: Consequat
+#        url: blogs/ipsum
+#      - image: pic06.jpg
+#        subtitle: Feugiat Amet Tempus
+#        title: Etiam
+#        url: blogs/ipsum
   two:
     buttonText: Get Started
     enable: yes
