@@ -1,14 +1,14 @@
 ---
-categories:
-- ""
-- ""
+title: "All About Me"
 date: "2017-10-31T21:28:43-05:00"
-description: ""
-draft: false
+description: ''
+draft: no
 image: pic10.jpg
-keywords: ""
-slug: When I am not doing statistics
-title: All About Me
+keywords: ''
+slug: All_About_Me
+categories:
+- ''
+- ''
 ---
 
 Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.

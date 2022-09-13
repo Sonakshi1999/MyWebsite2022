@@ -68,23 +68,23 @@ params:
 #        url: '#'
     links:
       - name: Home
-        url: '#'
+        url: '#'b
       - name: All About Me
-        url: blogs/risk_return
+        url: blogs/All_About_Me
       - name: My Projects
         url: blogs
 #      - name: Elements
 #        url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: Sonakshi
+    title: My Portfolio
   tiles:
     enable: yes
     showcase:
       - image: pic01.jpg
         subtitle: When I am not doing statistics
         title: All About Me!
-        url: blogs/risk_return
+        url: blogs/All_About_Me
       - image: pic02.jpg
         subtitle: This is what got me to LBS!
         title: CV
