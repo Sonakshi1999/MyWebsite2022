@@ -7,16 +7,16 @@ disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    #subtitle: 
+    subtitle: This is my portfolio filled with models that I have toiled over for hours. Hope you find it interesting! 
       #A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       #AND RELEASED UNDER THE CREATIVE COMMONS.
     title: Hi, my name is Sonakshi
   blog: {}
   contact:
     address:
-      - city: London, W1H 1FF
+      - city: London, NW1 4SA
         country: United Kingdom
-        street: 32 York Street
+        street: London Business School, Regent's Park
         title: Address
     buttonClear: Clear
     buttonSend: Send message
@@ -25,7 +25,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: Available upon request
         title: Phone
   custom_css: []
   custom_js: []
@@ -71,10 +71,10 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+#      - name: Generic Blog
+#        url: blogs/ipsum
+#      - name: Elements
+#        url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
