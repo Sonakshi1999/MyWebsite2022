@@ -44,16 +44,16 @@ params:
     social:
       - icon: fa-twitter
         label: Twitter
-        url: https://www.twitter.com
-      - icon: fa-facebook
-        label: Facebook
-        url: https://www.facebook.com
-      - icon: fa-instagram
-        label: Instagram
-        url: https://www.instagram.com
+        url: https://www.twitter.com/sonakshi180999
+#      - icon: fa-facebook
+#        label: Facebook
+#        url: https://www.facebook.com
+#      - icon: fa-instagram
+#        label: Instagram
+#        url: https://www.instagram.com
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com
+        url: https://www.github.com/Sonakshi1999
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com
@@ -65,7 +65,7 @@ params:
         url: blogs
 #    button2:
 #      - name: Log In
-        url: '#'
+#        url: '#'
     links:
       - name: Home
         url: '#'
@@ -84,7 +84,7 @@ params:
       - image: pic01.jpg
         subtitle: When I am not doing statistics
         title: All About Me!
-        url: blogs/aliquam
+        url: blogs/AllAboutMe
       - image: pic02.jpg
         subtitle: This is what got me to LBS!
         title: CV
