@@ -70,9 +70,9 @@ params:
       - name: Home
         url: '#'
       - name: All About Me
-        url: blogs
+        url: content/blogs/AllAboutMe
       - name: My Projects
-        url: blogs/ipsum
+        url: blogs
 #      - name: Elements
 #        url: elements.html
     menu: Menu
@@ -84,7 +84,7 @@ params:
       - image: pic01.jpg
         subtitle: When I am not doing statistics
         title: All About Me!
-        url: blogs/AllAboutMe
+        url: content/blogs/AllAboutMe
       - image: pic02.jpg
         subtitle: This is what got me to LBS!
         title: CV
