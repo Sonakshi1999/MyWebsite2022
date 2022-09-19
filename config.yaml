@@ -88,7 +88,7 @@ params:
       - image: pic02.jpg
         subtitle: This is what got me to LBS!
         title: CV
-        url: blogs/tempus
+        url: blogs/LBS_CV.pdf
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna
