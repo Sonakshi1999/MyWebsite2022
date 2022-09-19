@@ -93,14 +93,14 @@ params:
         subtitle: Who wanted UK to separate from the EU?
         title: Brexit Analysis
         url: blogs/brexit
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: 
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
+      - image: bike_tile.jpeg
+        subtitle: What could be the reason behind the excess rentals of the bikes?
+        title: TfL Bikes Hired
+        url: blogs/bikes
+#      - image: pic05.jpg
+#        subtitle: Ipsum Dolor Sit Amet
+#        title: Consequat
+#        url: blogs/ipsum
 #      - image: pic06.jpg
 #        subtitle: Feugiat Amet Tempus
 #        title: Etiam
@@ -108,11 +108,6 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Massa libero
+    subtitle: This is my portfolio filled with models that I have toiled over for hours. Hope you find it interesting!
+    title: My Projects
     url: blogs
