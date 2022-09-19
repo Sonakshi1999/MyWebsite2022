@@ -68,7 +68,7 @@ params:
 #        url: '#'
     links:
       - name: Home
-        url: '#'b
+        url: '#'
       - name: All About Me
         url: blogs/All_About_Me
       - name: My Projects
