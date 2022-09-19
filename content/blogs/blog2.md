@@ -2,8 +2,8 @@
 categories:
 - ""
 - ""
-date: "2017-10-31T22:26:09-05:00"
-description: Lorem Etiam Nullam
+date: "2022-09-19"
+description: All about me when I am not doing Statistics!
 draft: false
 image: skydiving.JPG
 keywords: ""

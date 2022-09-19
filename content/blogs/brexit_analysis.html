@@ -1,0 +1,78 @@
+---
+categories:  
+- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
+- ""
+date: "2022-09-19"
+description: Brexit Analysis # the title that will show up once someone gets to this page
+draft: false
+image: spices.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: brexit # slug is the shorthand URL address... no spaces plz
+title: Analysis of Brexit Votes in 2015
+---
+
+
+
+<p>I believe it is also important to see if the political affiliations that the voters had affected the way they voted to leave the European Union or not.</p>
+<pre class="r"><code>brexit &lt;- read_csv(&quot;https://raw.githubusercontent.com/kostis-christodoulou/am01/master/data/brexit_results.csv&quot;)
+
+# renaming the columns
+brexit &lt;- brexit %&gt;%
+  rename(Conservative = con_2015,
+         Labour = lab_2015,
+         LibDems = ld_2015,
+         UKIP = ukip_2015)
+
+# pivoting the table longer
+brexit_longer &lt;- brexit %&gt;%
+  pivot_longer(
+    cols = Conservative:UKIP,
+    names_to = &quot;party&quot;,
+    values_to = &quot;count&quot;
+  )
+
+color_party = c(&quot;#0087DC&quot;, &quot;#E32636&quot;, &quot;#FAA61A&quot;, &quot;#6D3177&quot;) #assigning party colors to a vector
+
+ggplot(brexit_longer,
+  aes(
+    x = count,
+    y = leave_share
+  )) +
+  geom_point(aes(color = party), alpha = 0.4)  +  
+  scale_color_manual(values = color_party) +
+  #adding trend lines
+  geom_smooth(data = brexit,
+      aes(x = Conservative, y = leave_share), 
+      color = color_party[1],
+      method = &quot;lm&quot;,
+      se = TRUE) +
+  geom_smooth(data = brexit,
+      aes(x = Labour, y = leave_share),
+      color = color_party[2],
+      method = &quot;lm&quot;,
+      se = TRUE) +
+  geom_smooth(data = brexit,
+      aes(x = LibDems, y = leave_share),
+      color = color_party[3],
+      method = &quot;lm&quot;,
+      se = TRUE) +
+  geom_smooth(data = brexit,
+      aes(x = UKIP, y = leave_share),
+      color = color_party[4],
+      method = &quot;lm&quot;,
+      se = TRUE) +
+  
+  theme_bw() +
+  theme(legend.position = &quot;bottom&quot;) +
+  theme(legend.title = element_blank()) +
+  
+  
+  labs(
+    title = &quot;How political affiliation translated to Brexit Voting&quot;,
+    x = &quot;Party % in the UK 2015 General Elections&quot;,
+    y = &quot;Leave % in 2016 Brexit Referedum&quot;
+  ) </code></pre>
+<p><img src="/blogs/brexit_analysis_files/figure-html/brexit_challenge-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p>We plotted the percentage of those who voted to leave against the percentage of people with various party affiliations.</p>
+<p>The plot showed that <strong>UKIP</strong> seemed to have a strong positive correlation. This aligns with their ideology of ‘Euroscepticism’. The party members were huge supporters of Brexit and hence, were one of the driving forces of encouraging the vote.</p>

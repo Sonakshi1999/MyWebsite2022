@@ -89,10 +89,10 @@ params:
         subtitle: This is what got me to LBS!
         title: CV
         url: blogs/LBS_CV.pdf
-      - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
+      - image: brexit_tile.jpeg
+        subtitle: Who wanted UK to separate from the EU?
         title: Brexit Analysis
-        url: blogs/magna
+        url: blogs/brexit
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
         title: 
