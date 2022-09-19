@@ -62,7 +62,7 @@ params:
   navigation:
     button1:
       - name: My CV
-        url: blogs
+        url: blogs/LBS_CV.pdf
 #    button2:
 #      - name: Log In
 #        url: '#'
@@ -81,26 +81,26 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
+      - image: about_me.jpg
         subtitle: When I am not doing statistics
         title: All About Me!
         url: blogs/All_About_Me
-      - image: pic02.jpg
+      - image: cv_tile.jpeg
         subtitle: This is what got me to LBS!
         title: CV
         url: blogs/LBS_CV.pdf
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
-        title: Magna
+        title: Brexit Analysis
         url: blogs/magna
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
-        title: Ipsum
+        title: 
         url: blogs/ipsum
-#      - image: pic05.jpg
-#        subtitle: Ipsum Dolor Sit Amet
-#        title: Consequat
-#        url: blogs/ipsum
+      - image: pic05.jpg
+        subtitle: Ipsum Dolor Sit Amet
+        title: Consequat
+        url: blogs/ipsum
 #      - image: pic06.jpg
 #        subtitle: Feugiat Amet Tempus
 #        title: Etiam
