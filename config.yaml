@@ -57,7 +57,7 @@ params:
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/sonakshi-gupta
-  image: background.jpeg
+  image: ''
   name: Sonakshi Guptta
   navigation:
     button1:
